@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
+.p-element {
+  @apply mt-6 text-xl text-justify leading-8 max-w-4xl mx-auto;
+}
+.h2-element {
+  @apply font-bold text-center mt-6 text-4xl;
+}
+.c-l-link {
+  @apply btn btn-primary btn-block;
+}
+.cally {
+  @apply hidden lg:carousel carousel-center p-4 space-x-4 bg-neutral rounded-box;
+}
+.tabdex {
+  @apply menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52;
+}
